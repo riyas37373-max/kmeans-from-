@@ -1,0 +1,10 @@
+This project demonstrates a full implementation of K-Means clustering from scratch using NumPy on a synthetic dataset. The algorithm initializes centroids, assigns clusters iteratively, and updates centroids until convergence. The resulting cluster assignments and centroids are visualized and compared with the standard scikit-learn implementation.
+
+Key findings:
+- Custom K-Means inertia: [replace with your value]
+- Cluster visualization in 'clusters.png'
+- Challenges: Proper convergence, floating point precision, faster scikit-learn
+- Learning: Deeper understanding of distance metrics, iterative optimization
+
+Compared with scikit-learn, the custom algorithm yields similar clusters but may be slower and less robust. Both approaches reveal underlying data structure.
+
